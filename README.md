@@ -1,4 +1,4 @@
-# WEB-Scanner# WEB-Scanner
+# WEB-Scanner
 
 ## Project Overview
 The **WEB-Scanner** is a sophisticated, Python-based tool meticulously designed to automate the detection and analysis of critical security vulnerabilities in web applications. This project serves as an essential resource for security professionals, developers, and penetration testers who are committed to proactively identifying, assessing, and remediating security risks, thereby fortifying the integrity and resilience of their applications against an ever-evolving threat landscape.
