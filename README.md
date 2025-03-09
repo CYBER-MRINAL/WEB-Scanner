@@ -69,6 +69,9 @@ Supports integration with popular security tools and frameworks (e.g., Burp Suit
    python3 WEB-Scanner.py
    ```
 
+![ezgif com-speed](https://github.com/user-attachments/assets/bf185da8-49eb-4581-90a9-87958f9f63a0)
+
+
 3. **Review the Report**:  
    After the scan completes, review the generated report for any identified vulnerability.
 
