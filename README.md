@@ -69,7 +69,8 @@ Supports integration with popular security tools and frameworks (e.g., Burp Suit
    python3 WEB-Scanner.py
    ```
 
-![ezgif com-speed](https://github.com/user-attachments/assets/bf185da8-49eb-4581-90a9-87958f9f63a0)
+![ezgif com-speed](https://github.com/user-attachments/assets/33f49d1d-e911-47b3-96e9-9e859a7db34d)
+
 
 
 3. **Review the Report**:  
