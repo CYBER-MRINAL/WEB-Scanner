@@ -114,12 +114,41 @@ class VulnerabilityScanner:
         except requests.RequestException as e:
             logging.error(f"Error during Command Injection scan: {e}")
     
+    def scan_security_headers(self):
+        try:
+            response = requests.get(self.url, timeout=5)
+            missing_headers = []
+            
+            security_headers = {
+                'Strict-Transport-Security': 'Missing HSTS header may allow downgrade attacks',
+                'X-Content-Type-Options': 'Missing nosniff header may allow MIME type sniffing',
+                'X-Frame-Options': 'Missing anti-framing header may allow clickjacking attacks',
+                'Content-Security-Policy': 'Missing CSP header may allow various injection attacks'
+            }
+            
+            for header, description in security_headers.items():
+                if header not in response.headers:
+                    missing_headers.append((header, description))
+            
+            if missing_headers:
+                vulnerability = {
+                    'type': 'Missing Security Headers',
+                    'location': self.url,
+                    'description': f'The application is missing {len(missing_headers)} security headers',
+                    'severity': 'Medium',
+                    'details': missing_headers
+                }
+                self.log_vulnerability(vulnerability)
+        except requests.RequestException as e:
+            logging.error(f"Error during security headers scan: {e}")
+    
     def scan(self):
         self.scan_sql_injection()
         self.scan_xss()
         self.scan_csrf()
         self.scan_file_inclusion()
         self.scan_command_injection()
+        self.scan_security_headers()
 
     def report(self):
         # Generate a report of findings
@@ -129,6 +158,10 @@ class VulnerabilityScanner:
             else:
                 for vulnerability in self.vulnerabilities:
                     f.write(f"{vulnerability['type']} found at {vulnerability['location']}: {vulnerability['description']} (Severity: {vulnerability['severity']})\n")
+                    if 'details' in vulnerability:
+                        f.write("  Details:\n")
+                        for header, desc in vulnerability['details']:
+                            f.write(f"  - {header}: {desc}\n")
         logging.info(f"Report generated: {self.report_file}")
 
 # Example usage
