@@ -38,9 +38,6 @@ The tool maintains a comprehensive log of all scanning activities, including tim
 ### Modular and Extensible Architecture
 Designed with a modular architecture, the scanner allows for easy extension and integration of additional vulnerability checks. Users can customize the scanner to suit specific testing requirements or to incorporate new vulnerability detection techniques, leveraging a plugin system for third-party contributions.
 
-### Integration with External Tools
-Supports integration with popular security tools and frameworks (e.g., Burp Suite, OWASP ZAP) for enhanced testing capabilities and reporting. This allows users to leverage existing tools within their security workflows seamlessly.
-
 ---
 
 ## Technical Stack
