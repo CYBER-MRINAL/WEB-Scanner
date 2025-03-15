@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import requests
 import subprocess
 import urllib.parse
