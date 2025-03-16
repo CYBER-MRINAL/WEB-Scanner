@@ -3,7 +3,7 @@
 ## Project Overview
 The **WEB-Scanner** is a sophisticated, Python-based tool meticulously designed to automate the detection and analysis of critical security vulnerabilities in web applications. This project serves as an essential resource for security professionals, developers, and penetration testers who are committed to proactively identifying, assessing, and remediating security risks, thereby fortifying the integrity and resilience of their applications against an ever-evolving threat landscape.
 
-- **Main Thing**: This script create a *output* named folder autometically and save the *log & text* file in itself. It also ask for the name of that files. User can scan multiple website in it and they don't mixed up in the *output* folder. This script give you upto 85% accuracy on scan.
+- **Main Thing**: This script create a *output* named folder autometically and save the *log & text* file in itself. It also ask for the name of that files. User can scan multiple website in it and they don't mixed up in the *output* folder. This script give you upto 85% accuracy on scan. `Always run this script in root user`.
 ---
 
 ## Key Features
@@ -63,7 +63,8 @@ Designed with a modular architecture, the scanner allows for easy extension and 
 2. **Run the Scanner**:  
    Execute the scanner script, providing the target URL for assessment:
    ```bash
-   python3 WEB-Scanner.py
+   sudo python3 WEB-Scanner.py
+   or Run in sudo user
    ```
 
 ![ezgif com-speed](https://github.com/user-attachments/assets/33f49d1d-e911-47b3-96e9-9e859a7db34d)
