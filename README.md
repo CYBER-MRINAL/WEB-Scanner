@@ -103,7 +103,3 @@ For inquiries, feedback, or collaboration opportunities, please feel free to rea
 
 ## Conclusion
 The **WEB-Scanner** is a powerful tool that empowers users to take control of their web application security. By automating the detection of vulnerabilities and providing actionable insights, this scanner plays a crucial role in safeguarding applications against potential threats. We invite you to explore the project, contribute, and join us in the mission to enhance web security for all.
-
----
-
-Feel free to customize any sections further to reflect your personal style, specific project details, or any additional information you wish to include! This description aims to present your project in a professional, comprehensive, and engaging manner, appealing to both technical and non-technical audiences.
