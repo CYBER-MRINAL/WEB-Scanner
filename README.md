@@ -57,7 +57,7 @@ Designed with a modular architecture, the scanner allows for easy extension and 
 1. **Clone the Repository**:  
    Clone the repository to your local machine using:
    ```bash
-   git clone https://github.com/CYBEREYE-001/WEB-Scanner.git
+   git clone https://github.com/CYBER-MRINAL/WEB-Scanner.git
    ```
 
 2. **Run the Scanner**:  
@@ -97,7 +97,7 @@ We would like to acknowledge the contributions of the open-source community and 
 ---
 
 ## Contact
-For inquiries, feedback, or collaboration opportunities, please feel free to reach out via [TELEGRAM](https://t.me/CYBEREYE001).
+For inquiries, feedback, or collaboration opportunities, please feel free to reach out via [TELEGRAM](https://t.me/CYBERMRINAL).
 
 ---
 
