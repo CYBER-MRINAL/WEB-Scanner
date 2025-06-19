@@ -97,7 +97,7 @@ We would like to acknowledge the contributions of the open-source community and 
 ---
 
 ## Contact
-For inquiries, feedback, or collaboration opportunities, please feel free to reach out via [TELEGRAM](https://t.me/CYBERMRINAL).
+For inquiries, feedback, or collaboration opportunities, please feel free to reach out via [TELEGRAM](https://t.me/cybermrinalgroup).
 
 ---
 
